@@ -1,0 +1,26 @@
+{
+  "name": "sub2api-txt-restore",
+  "version": "1.0.0",
+  "description": "把一行一号的 TXT 卡密内容离线转换为 sub2api 可导入 JSON。",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:offline": "npm run build && node scripts/build-offline.mjs",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "sub2api",
+    "jsonl",
+    "offline",
+    "converter"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12",
+    "vitest": "^4.1.9"
+  }
+}
